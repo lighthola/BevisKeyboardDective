@@ -15,6 +15,7 @@
 		CED619761D1A23440091CF36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED619741D1A23440091CF36 /* LaunchScreen.storyboard */; };
 		CED619811D1A23440091CF36 /* MyKeyboardBaseScrollerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CED619801D1A23440091CF36 /* MyKeyboardBaseScrollerTests.m */; };
 		CED6198C1D1A23440091CF36 /* MyKeyboardBaseScrollerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CED6198B1D1A23440091CF36 /* MyKeyboardBaseScrollerUITests.m */; };
+		CED619A11D1A28BC0091CF36 /* BaseKeyboardDetective.m in Sources */ = {isa = PBXBuildFile; fileRef = CED619A01D1A28BC0091CF36 /* BaseKeyboardDetective.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CED619871D1A23440091CF36 /* MyKeyboardBaseScrollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyKeyboardBaseScrollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED6198B1D1A23440091CF36 /* MyKeyboardBaseScrollerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyKeyboardBaseScrollerUITests.m; sourceTree = "<group>"; };
 		CED6198D1D1A23440091CF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED6199F1D1A28BC0091CF36 /* BaseKeyboardDetective.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseKeyboardDetective.h; sourceTree = "<group>"; };
+		CED619A01D1A28BC0091CF36 /* BaseKeyboardDetective.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseKeyboardDetective.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				CED619691D1A23430091CF36 /* AppDelegate.h */,
 				CED6196A1D1A23430091CF36 /* AppDelegate.m */,
+				CED6199F1D1A28BC0091CF36 /* BaseKeyboardDetective.h */,
+				CED619A01D1A28BC0091CF36 /* BaseKeyboardDetective.m */,
 				CED6196C1D1A23430091CF36 /* ViewController.h */,
 				CED6196D1D1A23430091CF36 /* ViewController.m */,
 				CED6196F1D1A23430091CF36 /* Main.storyboard */,
@@ -273,6 +278,7 @@
 				CED6196E1D1A23430091CF36 /* ViewController.m in Sources */,
 				CED6196B1D1A23430091CF36 /* AppDelegate.m in Sources */,
 				CED619681D1A23430091CF36 /* main.m in Sources */,
+				CED619A11D1A28BC0091CF36 /* BaseKeyboardDetective.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

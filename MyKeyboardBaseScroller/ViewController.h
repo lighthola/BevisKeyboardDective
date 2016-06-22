@@ -6,9 +6,9 @@
 //  Copyright © 2016年 user. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseKeyboardDetective.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : BaseKeyboardDetective <UITextFieldDelegate>
 
 
 @end
